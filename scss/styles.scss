@@ -1,1 +1,7 @@
-@import 'header';
+@charset "UTF-8";
+@import './normalize';
+@import 'variables';
+@import 'mixin';
+@import 'fonts';
+@import 'generals';
+@import './blocks/all_blocks';
