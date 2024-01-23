@@ -1,0 +1,19 @@
+/* Start */
+.start {
+  padding: 76px 0;
+  background-color: $light-coral;
+  background-image: url('../img/start-bg.svg');
+  background-repeat: no-repeat;
+  background-position: left calc(50% - 620px) bottom;
+  .start__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+  }
+  .start__title {
+    font-size: 48px;
+    line-height: 48px;
+    color: $state-green;
+  }
+}
