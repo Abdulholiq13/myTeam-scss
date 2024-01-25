@@ -36,105 +36,51 @@
     </header>
     <!-- Main -->
     <main class="main">
-      <!-- About intro -->
-      <section class="about__intro">
-        <div class="container about__intro-container">
-          <h2 class="about__intro-title">About</h2>
-          <p class="about__intro-text">
-            We help companies build dynamic teams made up of top global talent. Using our network of passionate
-            professionals we drive innovation and deliver incredible outcomes. Talented, diverse teams shape the best
-            products and experiences. We’ll bring those teams to you.
-          </p>
-        </div>
-      </section>
+      <section class="contact">
+        <div class="container contact__container">
+          <div class="contact__content">
+            <h2 class="contact__title">Contact</h2>
 
-      <!-- Directors -->
-      <section class="directors">
-        <div class="container directors__container">
-          <h2 class="directors__title">Meet the directors</h2>
-          <ul class="card__list">
-            <li class="card__item">
-              <img src="./img/nikita-marks.jpg" alt="Nikita Marks founder & CEO" width="96" height="96" />
-              <h3 class="card__title">Nikita Marks</h3>
-              <p class="card__position">Founder & CEO</p>
-              <button class="plus">
-                <i class="fa fa-plus" aria-hidden="true"></i>
-              </button>
-            </li>
-            <li class="card__item">
-              <img src="./img/cristian-duncan.jpg" alt="Cristian Duncan Co-founder & COO" width="96" height="96" />
-              <h3 class="card__title">Cristian Duncan</h3>
-              <p class="card__position">Co-founder & COO</p>
-              <button class="plus">
-                <i class="fa fa-plus" aria-hidden="true"></i>
-              </button>
-            </li>
-            <li class="card__item">
-              <img src="./img/cruz-hamer.jpg" alt="Cruz Hamer Co-founder & CTO" width="96" height="96" />
-              <h3 class="card__title">Cruz Hamer</h3>
-              <p class="card__position">Co-founder & CTO</p>
-              <button class="plus">
-                <i class="fa fa-plus" aria-hidden="true"></i>
-              </button>
-            </li>
-            <li class="card__item">
-              <img src="./img/drake-heaton.jpg" alt="Drake Heaton Business Development Lead" width="96" height="96" />
-              <h3 class="card__title">Drake Heaton</h3>
-              <p class="card__position">Founder & CEO</p>
-              <button class="plus">
-                <i class="fa fa-plus" aria-hidden="true"></i>
-              </button>
-            </li>
-            <li class="card__item">
-              <img src="./img/griffin-wise.jpg" alt="Griffin Wise lead marketing" width="96" height="96" />
-              <h3 class="card__title">Griffin Wise</h3>
-              <p class="card__position">Founder & CEO</p>
-              <button class="plus">
-                <i class="fa fa-plus" aria-hidden="true"></i>
-              </button>
-            </li>
-            <li class="card__item">
-              <img src="./img/aden-allan.jpg" alt="Aden Allan head of talent" width="96" height="96" />
-              <h3 class="card__title">Aden Allan</h3>
-              <p class="card__position">Head of Talent</p>
-              <button class="plus">
-                <i class="fa fa-plus" aria-hidden="true"></i>
-              </button>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <!-- Clients -->
-      <section class="clients">
-        <div class="container client__container">
-          <h2 class="clients__title">Some of our clients</h2>
-          <ul class="clients__list">
-            <li class="clients__item">
-              <img src="./img/verge.png" alt="" />
-            </li>
-            <li class="clients__item">
-              <img src="./img/jakarta.png" alt="" />
-            </li>
-            <li class="clients__item">
-              <img src="./img/guardian.png" alt="" />
-            </li>
-            <li class="clients__item">
-              <img src="./img/techradar.png" alt="" />
-            </li>
-            <li class="clients__item">
-              <img src="./img/gadgets-now.png" alt="" />
-            </li>
-          </ul>
-        </div>
-      </section>
-      <!-- Start -->
-      <section class="start">
-        <div class="container start__container">
-          <h2 class="start__title">Ready to get started?</h2>
-          <a class="button button-dark" href="#">contact us</a>
+            <h3 class="contact__list-title">Ask us about</h3>
+            <ul class="contact__list">
+              <li class="contact__item">
+                <p class="contact__text">The quality of our talent network</p>
+              </li>
+
+              <li class="contact__item">
+                <p class="contact__text implement">Usage & implementation of our software</p>
+              </li>
+
+              <li class="contact__item">
+                <p class="contact__text productivity">How we help drive innovation</p>
+              </li>
+            </ul>
+          </div>
+
+          <form class="form">
+            <input id="name" class="form__input" type="text" placeholder="Name" required />
+            <p class="error">This field is required</p>
+            <input id="email" class="form__input" type="email" placeholder="Email Address" required />
+            <p class="error">This field is required</p>
+            <input id="company" class="form__input" type="text" placeholder="Company Name" required />
+            <p class="error">This field is required</p>
+            <input id="title" class="form__input" type="text" placeholder="Title" required />
+            <p class="error">This field is required</p>
+            <textarea
+              id="message"
+              class="form__message"
+              name="Message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+            <button class="button button-white" type="submit">submit</button>
+          </form>
         </div>
       </section>
     </main>
+
     <!-- Footer -->
     <footer class="footer">
       <div class="container footer__container">

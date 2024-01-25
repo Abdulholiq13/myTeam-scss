@@ -1,6 +1,9 @@
 .directors {
   padding: 140px 0;
   background-color: $jungle-green;
+  background-image: url('../img/directors-right-bg.svg'), url('../img/directors-left-bg.svg');
+  background-repeat: no-repeat;
+  background-position: right calc(50% - 670px) bottom, left calc(50% - 670px) top;
 
   .directors__container {
     display: flex;
