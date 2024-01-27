@@ -135,3 +135,36 @@
     }
   }
 }
+
+@media only screen and (max-width: 375px) {
+  .intro {
+    background-image: url('../img/intro-right-bg.svg');
+    background-position: center bottom calc(50% - 255px);
+    &__container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    &__title {
+      width: auto;
+      font-size: 40px;
+      line-height: 56px;
+      margin-bottom: 24px;
+    }
+
+    &__text {
+      width: 327px;
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 28px;
+      text-align: center;
+      padding: 0;
+      margin-right: 0;
+
+      &::before {
+        display: none;
+      }
+    }
+  }
+}
